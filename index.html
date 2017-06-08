@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="api.js"></script>
+    <link rel="stylesheet" href="main.css" />
+    <title>Weather</title>
+  </head>
+
+  <body>
+    <h1>Today's Weather Condition</h1>
+    <div id="input">
+      Enter city: <input type="text" id="city" />
+    </div>
+
+    <div id="unitSelected">
+      <form>
+        <input type="radio" name="units" value="f" checked> &deg;F
+        <input type="radio" name="units" value="c" /> &deg;C
+      </form>
+    </div>
+
+    <br /> <br />
+    <div id="icon">
+    </div>
+    <br />
+    <div id="temp">
+      Temperature:
+    </div>
+    <div id="humid">
+      Humidity:
+    </div>
+  </body>
+
+</html>
